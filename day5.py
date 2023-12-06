@@ -111,5 +111,5 @@ def getLowestLocationSeedWithRanges(input):
     seeds = mapToNextRange(seeds, ranges)
     return min(seeds, key=lambda x: x[0]) 
 
-print(getLowestLocationSeedWithRanges(test.splitlines()))
-print(getLowestLocationSeedWithRanges(open("inputs/day5.txt", "r").readlines()))
+# print(getLowestLocationSeedWithRanges(test.splitlines()))
+print(getLowestLocationSeedWithRanges(open("inputs/day5.txt", "r").readlines())[0])
